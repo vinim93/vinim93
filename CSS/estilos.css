@@ -1,0 +1,75 @@
+ 
+ body{
+  
+   position: relative;
+ }
+ .principal{
+    
+         background-color: palevioletred;
+
+ }
+
+ #main .carousel-inner img{
+    max-height: 350px;
+    filter: grayscale(70%);
+   /* object-fit: cover;*/
+}
+ .navi{ 
+     
+    
+    display: flex;
+    
+    justify-content: flex-end;
+    font-style: oblique;
+        
+    
+ }
+
+#carousel {
+   position: relative;
+}
+#carousel .overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index:1;
+   background-color: rgba(0, 0, 0, 0.3);
+   color:white;
+
+}
+
+.btn-maq {  
+  
+    /*flex-wrap: wrap;
+    padding-left: 40px ;
+    padding-right: 40px;*/
+    background-color: pink !important;
+   color: white !important;;
+ }
+ .btn-danger{
+    
+   padding-left: 40px !important;
+   padding-right: 40px !important;
+ }
+img .corr{
+   height: 200px;
+}
+#productos{
+   background: pink;
+}
+#place-time img{
+   max-width: 100%;
+}
+#place-time{
+   color: white;
+}
+.letras{
+   color: white!important;
+}
+.titulo{
+   
+   color: white;
+   font-family: cursive;
+}
